@@ -10,7 +10,7 @@ const sendRequest = function(method, url, data){
         xhr.responseType = "json";
         xhr.setRequestHeader("Content-Type", "application/json");
 
-        xhr.send(data);
+        //xhr.send(data);
 
         xhr.onload = function(){
            // console.log(xhr.status);
